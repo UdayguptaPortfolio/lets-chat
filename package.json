@@ -2,8 +2,10 @@
   "name": "lets-chat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "serve": "node server",
+    "start": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Uday Gupta",
@@ -13,6 +15,9 @@
     "bcryptjs": "^2.4.3",
     "graphql": "^16.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.1.8"
+    "mongoose": "^6.1.8",
+    "react-router-dom": "^6.2.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.1"
   }
 }
